@@ -15,7 +15,7 @@ export class OrderRepository {
 
   constructor(private datasource:RestDataSource)
   {
-    console.log(this.datasource.getOrders());
+    //console.log(this.datasource.getOrders());
   }
 
   saveOrder(order: Order): Observable<Order>
@@ -31,10 +31,10 @@ export class OrderRepository {
 
       //this.loadOrders();
       return this.orders;
+    
   }
   loadOrders()
   {
-    
     this.loaded = true;
     return this.datasource.getOrders().subscribe(orders => this.orders = orders);
   }

@@ -12,7 +12,7 @@ export class OrderComponent
 {  
     constructor(private  orderRepository:OrderRepository)
     {
-      console.log(orderRepository.getOrders());
+      //console.log(orderRepository.getOrders());
     }
 
     getOrders()
