@@ -21,6 +21,6 @@ export class ModelModel
 {
     constructor(state:StaticDataSource)
     {
-        console.log();
+        //console.dir(ConnectionService);
     }
 }

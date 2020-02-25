@@ -34,6 +34,6 @@ export class AdmineModule
 {
     constructor()
     {
-        console.log(AuthGuard);
+        console.log(OrderComponent);
     }
 }
